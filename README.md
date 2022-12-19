@@ -20,7 +20,7 @@ The color of red-black follow the criteria
 * If a node is red, then both its children are black.
 * Each path from a given node to any of its descendent NULL node contain the same number of black nodes.
 
-During the insertion and deletetion, there are six special cases we need to handle. 
+During the insertion and deletetion, there are many special cases we need to take care of, but the document will become tedious if I include them all. You can go check the refrence website for more details.
 
 ### AVL tree versus Red-Black tree.
 
@@ -40,3 +40,8 @@ Algorithm | Time complexity | Space computational complexity
 Binary search tree | $O(n)$ | $O(n)$|
 AVL tree |  $O(log(n))$ | $O(n)$ |
 Red-black tree | $O(log(n))$ | $O(n)$ |
+
+Reference: 
+1. [Introduction to Red-Black tree](https://www.geeksforgeeks.org/introduction-to-red-black-tree/)
+2. (Red-Black tree visualization](https://www.cs.usfca.edu/~galles/visualization/RedBlack.html). You can build your own Red-Black tree with this website.
+3. [Red-Black tree special cases explanation](https://algorithmtutor.com/Data-Structures/Tree/Red-Black-Trees/)
