@@ -1,4 +1,4 @@
-# Advanced-tree-based-algorithm
+# Advanced-tree-based-data-structure
 A Matlab implementation and comparison of three tree based algorithms, binary search tree, AVL tree, and Red-Black tree with unit test.
 
 ## Binary search tree (BST)
