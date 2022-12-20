@@ -1,5 +1,5 @@
 # Advanced-tree-based-data-structure
-A Matlab implementation and comparison of three tree based algorithms, binary search tree, AVL tree, and Red-Black tree with unit test.
+A Matlab implementation and comparison of three tree based data structures, binary search tree, AVL tree, and Red-Black tree with unit test.
 
 ## Binary search tree (BST)
 Binary search tree is a binary tree with the following properties
@@ -29,21 +29,21 @@ For searching heavy operation, AVL is faster than Red-Black tree because AVL tre
 The time and space computational complexity of binary search tree, AVL tree, and Red-black tree. It handled the unbalanced binary search tree 
 
 The insertion operation copmarison.
-Algorithm | Time complexity | Space computational complexity
+data structure | Time complexity | Space computational complexity
 --- | --- | --- |
 Binary search tree | $O(n)$ | $O(n)$|
 AVL tree |  $O(log(n))$ | $O(n)$ |
 Red-black tree | $O(log(n))$ | $O(n)$ |
 
 The searching operation comparison.
-Algorithm | Time complexity | Space computational complexity
+data structure | Time complexity | Space computational complexity
 --- | --- | --- |
 Binary search tree | $O(n)$ | $O(n)$|
 AVL tree |  $O(log(n))$ | $O(n)$ |
 Red-black tree | $O(log(n))$ | $O(n)$ |
 
 ## Running instruction
-You can run the ```Samplecode.m``` file to see the results of  theree different tree based algorithms.
+You can run the ```Samplecode.m``` file to see the results of  theree different tree based data structures.
 The unit test code is located in the ```testRunnder.m```, and after you run, the latest unit test will be updated in ```testFolder```.
 
 
